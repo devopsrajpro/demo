@@ -23,8 +23,8 @@ pipeline
         
     }
 	post { 
-        failure { 
-            echo 'Build was failed due to syntax error!'
+        always { 
+            echo 'Build was sucess!'
         }
     }
 }
